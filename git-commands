@@ -1,0 +1,62 @@
+
+git init
+git status
+git config --global user.name "akhilapradeep"
+git config --global user.email "akhilareddy0098@gmail.com
+git config ls
+clear
+
+
+git config --global --unset user.name
+git config --global --unset user.email
+
+
+git init
+ls
+touch file1
+git status
+git add file1
+git status
+git commit -m "test file" file1
+git log
+git status
+git show "commit id"
+
+
+
+git init
+git ls
+git touch file1 file2 file3
+or
+git add .
+or
+git add *
+or 
+git add -A
+git status
+git add  .
+git status
+git commit -m "test file".
+git log
+git status
+git show "commit id" (CID)
+
+git add file1(work space-staging)
+git reset hear file1 (staging to workspace)
+
+git commit -m"label" (staging to local)
+git reset --soft cid (local to staging)
+
+
+git clone https://github.com/katkamakhila/repo1.git
+ls
+cd repo1
+touch file1
+git status
+git add file1
+git status
+git commit -m "test file" file1
+git log
+git status
+git show "commit id"
+git push
